@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: .docker/Containerfile
     volumes:
-      - ./api/db.json:/app/db.json
+      - ./api:/app/api
     networks:
       - backend
     ports:
