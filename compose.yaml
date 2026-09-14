@@ -1,0 +1,16 @@
+services:
+  json-server:
+    container_name: mock-api
+    build: 
+      context: .
+      dockerfile: .docker/Containerfile
+    volumes:
+      - ./api/db.json:/app/db.json
+    networks:
+      - backend
+    ports:
+      - "3000:3000"
+    command: npm run server
+
+networks:
+  backend:
