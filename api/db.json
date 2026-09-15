@@ -57,13 +57,13 @@
     {
       "id": "10",
       "title": "Security",
-      "excitement": "high",
+      "excitement": "medium",
       "proficiency": "beginner"
     },
     {
       "id": "11",
       "title": "Git / GitHub",
-      "excitement": "high",
+      "excitement": "medium",
       "proficiency": "intermediate"
     }
   ],
