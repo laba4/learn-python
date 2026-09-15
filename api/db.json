@@ -1,26 +1,70 @@
 {
-  "posts": [
+  "skills": [
     {
       "id": "1",
-      "title": "a title",
-      "views": 100
+      "title": "Networking",
+      "excitement": "medium",
+      "proficiency": "intermediate"
     },
     {
       "id": "2",
-      "title": "another title",
-      "views": 200
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
+      "title": "IAM (Entra ID)",
+      "excitement": "medium",
+      "proficiency": "intermediate"
     },
     {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
+      "id": "3",
+      "title": "Azure",
+      "excitement": "high",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "4",
+      "title": "Cloud Architecture",
+      "excitement": "extreme",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "5",
+      "title": "Terraform / IaC",
+      "excitement": "high",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "6",
+      "title": "Linux / Bash",
+      "excitement": "high",
+      "proficiency": "beginner"
+    },
+    {
+      "id": "7",
+      "title": "Python",
+      "excitement": "high",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "8",
+      "title": "Docker",
+      "excitement": "high",
+      "proficiency": "beginner"
+    },
+    {
+      "id": "9",
+      "title": "CI/CD",
+      "excitement": "medium",
+      "proficiency": "beginner"
+    },
+    {
+      "id": "10",
+      "title": "Security",
+      "excitement": "high",
+      "proficiency": "beginner"
+    },
+    {
+      "id": "11",
+      "title": "Git / GitHub",
+      "excitement": "high",
+      "proficiency": "intermediate"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
